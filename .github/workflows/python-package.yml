@@ -29,5 +29,5 @@ jobs:
         python -m pip install --upgrade pip
     - name: run
       run: |
-      python3 main.py
+        python3 main.py
 
