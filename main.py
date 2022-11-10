@@ -1,6 +1,6 @@
 import urllib.request
 import time
-for i in range(5):
+for i in range(60):
     url = 'https://surlfs.f5.si'
 
     req = urllib.request.Request(url)
