@@ -1,2 +1,3 @@
 import subprocess
-subprocess.run('python main.py')
+a = ["python","main.py"]
+subprocess.call(a)
