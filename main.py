@@ -6,6 +6,6 @@ for i in range(60):
     req = urllib.request.Request(url)
     with urllib.request.urlopen(req) as res:
         body = res.read()
-
+    time.sleep(60)
 
    
