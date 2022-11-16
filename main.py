@@ -21,14 +21,14 @@ for i in range(60):
     req4 = urllib.request.Request(url4)
     with urllib.request.urlopen(req4) as res4:
         body4 = res4.read()
-    url4 = 'https://archmusicbot-3.arch-herobrine.repl.co'
-    req4 = urllib.request.Request(url4)
-    with urllib.request.urlopen(req4) as res4:
-        body4 = res4.read()
-    url4 = 'https://archmusicbot-4.arch-herobrine.repl.co'
-    req4 = urllib.request.Request(url4)
-    with urllib.request.urlopen(req4) as res4:
-        body4 = res4.read()
+    url5 = 'https://archmusicbot-3.arch-herobrine.repl.co'
+    req5 = urllib.request.Request(url5)
+    with urllib.request.urlopen(req5) as res5:
+        body5 = res5.read()
+    url6 = 'https://archmusicbot-4.arch-herobrine.repl.co'
+    req6 = urllib.request.Request(url6)
+    with urllib.request.urlopen(req6) as res6:
+        body6 = res6.read()
     time.sleep(60)
 
    
