@@ -29,6 +29,10 @@ for i in range(60):
     req6 = urllib.request.Request(url6)
     with urllib.request.urlopen(req6) as res6:
         body6 = res6.read()
+    url7 = 'https://qawsedrftgyhujikolp.arch-herobrine.repl.co'
+    req7 = urllib.request.Request(url7)
+    with urllib.request.urlopen(req7) as res7:
+        body7 = res7.read()
     time.sleep(60)
 
    
