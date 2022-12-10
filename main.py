@@ -33,6 +33,11 @@ for i in range(60):
     req7 = urllib.request.Request(url7)
     with urllib.request.urlopen(req7) as res7:
         body7 = res7.read()
+
+    url8 = "https://bot.arch-herobrine.repl.co"
+    req8 = urllib.request.Request(url8)
+    with urllib.request.urlopen(req8) as res8:
+        body8 = res8.read()
     time.sleep(60)
 
    
